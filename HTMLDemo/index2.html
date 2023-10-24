@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+
+    <title>My page title</title>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300|Sonsie+One" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="style.css">
+    <!-- the below three lines are a fix to get HTML5 semantic elements working in old versions of Internet Explorer-->
+    <!--[if lt IE 9]>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script>
+    <![endif]-->
+    <script type="text/javascript" src="javascript.js"></script>
+    <script>
+      window.onload = function () {
+        // create a couple of elements in an otherwise empty HTML page
+        var heading = document.createElement("h1");
+        var heading_text = document.createTextNode("Big Head!");
+        heading.appendChild(heading_text);
+        document.body.appendChild(heading);
+      }
+    </script>
+
+  </head>
+
+  <body >
+
+<h1>My main title</h1>
+<h2>My top level heading</h2>
+<div class="the-first">
+<h2>My top level heading in a paragraph</h2>
+  <div class="the-second">
+    <h2>My top level heading in a div in a paragraph</h2>
+  </div>
+</div>
+
+
+
+<div class="the-second">
+ I like to put stuf in boxes
+</div>
+<h3>My subheading</h3>
+<h4>My sub-subheading</h4>
+<p><a href="http://zipcodewilmington.com">Zip Code Wilmington</a>
+  is a community of dedicated</p>
+<ul>
+  <li>Staff</li>
+  <li>Instructors</li>
+  <li>Students</li>
+</ul>
+
+    <!-- Here is our main header that is used across all the pages of our website -->
+    <header>
+      <h1>Header</h1>
+    </header>
+<nav id="first-nav">
+  <ul>
+    <li><a href="#">Home</a></li>
+    <li><a href="#">Our team</a></li>
+    <li><a href="#">Projects</a></li>
+    <li><a href="#">Contact</a></li>
+  </ul>
+</nav>
+<nav id="second-nav">
+  <ul>
+    <li><a href="#">Home</a></li>
+    <li><a href="#">Our team</a></li>
+    <li><a href="#">Projects</a></li>
+    <li><a href="#">Contact</a></li>
+  </ul>
+</nav>
+
+    <!-- Here is our page's main content -->
+    <main>
+
+      <!-- It contains an article -->
+      <h2 >Article heading</h2>
+
+      <p><span class="start-para">Lorem ipsum dolor sit amet,</span> consectetur adipisicing elit. Donec a diam lectus. Set sit amet ipsum mauris. Maecenas congue ligula as quam viverra nec consectetur ant hendrerit. Donec et mollis dolor. Praesent et diam eget libero egestas mattis sit amet vitae augue. Nam tincidunt congue enim, ut porta lorem lacinia consectetur.</p>
+
+      <h3>subsection</h3>
+
+      <p>Donec ut librero sed accu vehicula ultricies a non tortor. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aenean ut gravida lorem. Ut turpis felis, pulvinar a semper sed, adipiscing id dolor.</p>
+
+      <h3>Another subsection</h3>
+
+      <p>Donec viverra mi quis quam pulvinar at malesuada arcu rhoncus. Cum soclis natoque penatibus et manis dis parturient montes, nascetur ridiculus mus. In rutrum accumsan ultricies. Mauris vitae nisi at sem facilisis semper ac in est.</p>
+<div class="shopping-cart">
+  <h2>Shopping cart</h2>
+  <ul><li>
+    <p><a href=""><strong>Cashmere sweater</strong></a>: $99.95.</p>
+  </li><li>
+    <p><a href=""><strong>Fancy socks</strong></a>: $50.95.</p>
+  </li>
+  </ul>
+  <p>Total cost: $237.89</p>
+</div>
+      <!-- the aside content can also be nested within the main content -->
+      <aside>
+        <h2>Related</h2>
+
+        <ul>
+          <li><a href="#">Oh I do like to be beside the seaside</a></li>
+          <li><a href="#">Oh I do like to be beside the sea</a></li>
+          <li><a href="#">Although in the North of England</a></li>
+          <li><a href="#">It never stops raining</a></li>
+          <li><a href="#">Oh well...</a></li>
+        </ul>
+      </aside>
+    </main>
+
+    <!-- And here is our main footer that is used across all the pages of our website -->
+    <footer>
+      <p>©Copyright 2050 by nobody. All rights reversed.</p>
+    </footer>
+  </body>
+</html>

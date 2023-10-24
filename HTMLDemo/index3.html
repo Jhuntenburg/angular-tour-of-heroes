@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>My page title</title>
+</head>
+
+<body>
+  <h1>My first HTML document</h1>
+
+  <p>Hello world!</p>
+
+  <!-- Linking external JavaScript file -->
+  <script type="text/javascript" src="javascript.js"></script>
+
+  <!-- Inline JavaScript -->
+
+  <div id="one">
+
+  </div>
+  <div id="two">
+
+  </div>
+  <div id="three">
+
+  </div>
+
+  <script>
+    window.onload = function () {
+    }
+    function doStuff(){
+
+      // create a couple of elements in an otherwise empty HTML page
+      var heading = document.createElement("h1");
+      var heading_text = document.createTextNode("Big Head here!");
+      var heading_first = document.createElement("h1");
+      var heading_first_text = document.createTextNode("First!");
+      var heading_second = document.createElement("h1");
+      var heading_second_text = document.createTextNode("Second!");
+      var heading_third = document.createElement("h1");
+      var heading_third_text = document.createTextNode("Three!");
+
+      heading_first.appendChild(heading_first_text);
+      heading_second.appendChild(heading_second_text);
+      heading_third.appendChild(heading_third_text);
+
+      heading.appendChild(heading_text);
+      document.body.appendChild(heading);
+
+      var div_one = document.getElementById("one");
+      var div_two = document.getElementById("two");
+      var div_three = document.getElementById("three");
+
+      div_one.appendChild(heading_first);
+      div_two.appendChild(heading_second);
+      div_three.appendChild(heading_third);
+    }
+
+
+  </script>
+
+<input type="button" value="DoStuff" onclick="doStuff();">
+
+</body>
+
+</html>

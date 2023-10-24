@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="VcsDirectoryMappings">
+    <mapping directory="$PROJECT_DIR$/Card" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Finished Projects/BlueJ.DreamHouseDrawing" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Finished Projects/BlueJ.FirstSaturday" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Finished Projects/BlueJ.NaiveTicket" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Finished Projects/DiceyLab" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Finished Projects/FileIOJava" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Finished Projects/LogginLab" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Finished Projects/Maven.AliceAndBob" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Finished Projects/Maven.DanDoBetterDrills" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Finished Projects/Maven.NumbersTrianglesTables" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Finished Projects/Maven.SumOfInput" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Finished Projects/MyFirstFork" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Finished Projects/OldTexasCode" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Finished Projects/PayDay" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Finished Projects/PersonDetails" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Finished Projects/ScientificCalculator" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Finished Projects/StringArrayUtilities" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Finished Projects/StringsAndThings" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Finished Projects/TestingPersonClass" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Finished Projects/TicTacToe" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Finished Projects/TooLargeTooSmall" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Finished Projects/WordGuess" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Finished Projects/java-quiz-1-Jhuntenburg" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/GradedStudents" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/GroupCasino" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/PhoneBook" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/PlaylistChallenge" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/SimpleClock" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/TDD-AnimalFactory" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/TalkingPets" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/hamurabi" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/java-exam-1-Jhuntenburg" vcs="Git" />
+  </component>
+</project>

@@ -1,0 +1,65 @@
+header {
+  background-color: teal;
+  height: 160px;
+  color: #fff;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+
+h1,
+h2,
+h3,
+h4 {
+  color: pink;
+  background-color: aqua;
+  border: 10px solid purple;
+  font-size: 24px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+p {
+  color: green;
+}
+
+span.start-para {
+  font-size: 24px;
+  color: blue;
+}
+
+h2 {
+  color: red;
+  border: none;
+
+}
+
+div h2 {
+  color: blue;
+}
+
+
+.the-second {
+  border: 2px #ccc solid;
+  background: beige;
+}
+
+.the-first .the-second h2 {
+  color: black;
+  font-weight: bold;
+  font-size: 26px;
+}
+
+nav{
+  font-family: Arial, Helvetica, sans-serif;
+}
+#first-nav {
+  font-size: 32px;
+}
+
+#first-nav li a {
+text-decoration:none;
+
+}
+
+#second-nav {
+  font-size: 28px;
+}
